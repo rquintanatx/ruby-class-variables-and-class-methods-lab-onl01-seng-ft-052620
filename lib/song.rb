@@ -19,7 +19,6 @@ class Song
   
   def self.genres
     genres_dup_delete = []
-    binding.pry
     genres_dup_delete = @@genres.uniq
   end
   
