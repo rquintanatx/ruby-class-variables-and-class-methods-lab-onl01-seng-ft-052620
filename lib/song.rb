@@ -27,15 +27,7 @@ class Song
     artists_dup_delete = @@artists.uniq
   end 
   
-  def self.genre_count
-    genres_hash = {}
-  #  for @@genres.each do |genre|
-     # if genres_hash = 0 || genres_hash.none? {|list_genre,genre_count| genre == list_genre}
-        #genres_hash[genre] = 1 
-    #  else 
-        #genres_hash[genre] += 1
-   #  end 
- # end 
+
   
   def self.count 
     @@count
