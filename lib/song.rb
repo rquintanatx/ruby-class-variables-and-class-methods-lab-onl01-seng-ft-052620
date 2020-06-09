@@ -30,7 +30,7 @@ class Song
   def self.genre_count
     genre_hash = {}
     @@genre.each do |genre|
-      if genre_hash.count = 0
+      if genre_hash.count = 0 || genre_hash.none? {|list_genre, list_num| list_genre == genre}
         genre_hash[genre] = 1
       else
       
