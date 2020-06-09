@@ -31,7 +31,7 @@ class Song
     genre_hash = {}
     @@genre.each do |genre|
       if genre_hash.count = 0
-        
+        genre_hash[genre] = 1
       else
       
       end
