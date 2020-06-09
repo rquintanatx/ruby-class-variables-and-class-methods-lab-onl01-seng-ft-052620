@@ -16,6 +16,7 @@ class Song
   end 
   
   def genres
+    genres_dup_delete = []
     
   end
   
