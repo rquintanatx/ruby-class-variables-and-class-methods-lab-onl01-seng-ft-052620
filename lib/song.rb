@@ -30,7 +30,11 @@ class Song
   def self.genre_count
     genre_hash = {}
     @@genre.each do 
+      if genre_hash.count = 0
+        
+      else
       
+      end
     end 
   end  
 
