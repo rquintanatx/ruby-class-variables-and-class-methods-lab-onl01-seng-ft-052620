@@ -33,7 +33,7 @@ class Song
       if genre_hash.count = 0 || genre_hash.none? {|list_genre, list_num| list_genre == genre}
         genre_hash[genre] = 1
       else
-      
+        genre_hash[genre] += 1
       end
     end 
   end  
