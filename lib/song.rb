@@ -27,6 +27,9 @@ class Song
     artists_dup_delete = @@artists.uniq
   end 
   
+  def self.genre_count
+  
+  end  
 
   
   def self.count 
