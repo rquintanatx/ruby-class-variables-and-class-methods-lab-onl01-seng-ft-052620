@@ -29,14 +29,13 @@ class Song
   
   def self.genre_count
     genres_hash = {}
-    for @@genres.each do |genre|
-      if genres_hash = 0 || genres_hash.none? {|list_genre,genre_count| genre == list_genre}
+  #  for @@genres.each do |genre|
+     # if genres_hash = 0 || genres_hash.none? {|list_genre,genre_count| genre == list_genre}
         #genres_hash[genre] = 1 
-      else 
+    #  else 
         #genres_hash[genre] += 1
-      end
-    end 
-  end 
+   #  end 
+ # end 
   
   def self.count 
     @@count
